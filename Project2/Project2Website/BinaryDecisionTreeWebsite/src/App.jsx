@@ -11,7 +11,7 @@ function App() {
             <div className="app">
                 <nav className="navbar">
                     <div className="nav-container">
-                        <Link to="/" className="nav-logo">My Project</Link>
+                        <Link to="/" className="nav-logo">Binary Decision Tree</Link>
                         <ul className="nav-menu">
                             <li className="nav-item">
                                 <Link to="/" className="nav-link">Home</Link>
