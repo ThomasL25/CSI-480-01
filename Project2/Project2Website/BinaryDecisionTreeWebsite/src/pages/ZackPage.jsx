@@ -1,12 +1,9 @@
 function ZackPage() {
     return (
-        <div className="page-container">
-            <h1>My Page</h1>
-            <p>This is your personal page. Add your content here!</p>
-            <div style={{ marginTop: '2rem' }}>
-                <h2>About Me</h2>
-                <p>Add information about yourself... ZACK PAGE</p>
-            </div>
+         <div className="page-container">
+            <h1>Justin's Page is for my visualations and analytics</h1>
+            <h2>Visualization:</h2>
+            <h2>Analytics</h2>
         </div>
     );
 }
