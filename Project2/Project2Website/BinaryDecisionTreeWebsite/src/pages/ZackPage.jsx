@@ -1,7 +1,7 @@
 function ZackPage() {
     return (
          <div className="page-container">
-            <h1>Justin's Page is for my visualations and analytics</h1>
+            <h1>Zack's Page is for my visualations and analytics</h1>
             <h2>Visualization:</h2>
             <h2>Analytics</h2>
         </div>
