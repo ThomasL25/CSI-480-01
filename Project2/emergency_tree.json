@@ -1,0 +1,24 @@
+{
+  "name": "Diseases of heart (I00-I09,I11,I13,I20-I51)",
+  "threshold": 4876.0,
+  "left": {
+    "value": [
+      1.0,
+      0.0
+    ],
+    "probabilities": [
+      1.0,
+      0.0
+    ]
+  },
+  "right": {
+    "value": [
+      0.0,
+      1.0
+    ],
+    "probabilities": [
+      0.0,
+      1.0
+    ]
+  }
+}
