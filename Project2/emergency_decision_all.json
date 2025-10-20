@@ -1,0 +1,758 @@
+{
+  "United States": {
+    "jurisdiction": "United States",
+    "baseline": {
+      "mean": 63793.0,
+      "std": 6754.3510914570215,
+      "n": 3
+    },
+    "current_deaths": 37874,
+    "z_score": -3.837378254260819,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.765188+00:00"
+  },
+  "Alabama": {
+    "jurisdiction": "Alabama",
+    "baseline": {
+      "mean": 1313.0,
+      "std": 198.28766981332953,
+      "n": 3
+    },
+    "current_deaths": 575,
+    "z_score": -3.7218653116190348,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.767134+00:00"
+  },
+  "Alaska": {
+    "jurisdiction": "Alaska",
+    "baseline": {
+      "mean": 110.33333333333333,
+      "std": 26.246692913372705,
+      "n": 3
+    },
+    "current_deaths": 12,
+    "z_score": -3.7465037465056192,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.768992+00:00"
+  },
+  "Puerto Rico": {
+    "jurisdiction": "Puerto Rico",
+    "baseline": {
+      "mean": 639.6666666666666,
+      "std": 23.34285520001546,
+      "n": 3
+    },
+    "current_deaths": 453,
+    "z_score": -7.996736691685557,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.770852+00:00"
+  },
+  "Arizona": {
+    "jurisdiction": "Arizona",
+    "baseline": {
+      "mean": 1376.3333333333333,
+      "std": 171.49603170012097,
+      "n": 3
+    },
+    "current_deaths": 892,
+    "z_score": -2.8241664167497564,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.772729+00:00"
+  },
+  "Arkansas": {
+    "jurisdiction": "Arkansas",
+    "baseline": {
+      "mean": 771.6666666666666,
+      "std": 78.1465859068001,
+      "n": 3
+    },
+    "current_deaths": 461,
+    "z_score": -3.9754349222265035,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.774572+00:00"
+  },
+  "California": {
+    "jurisdiction": "California",
+    "baseline": {
+      "mean": 5922.333333333333,
+      "std": 301.1913382257568,
+      "n": 3
+    },
+    "current_deaths": 3470,
+    "z_score": -8.142111083869205,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.776419+00:00"
+  },
+  "Colorado": {
+    "jurisdiction": "Colorado",
+    "baseline": {
+      "mean": 898.0,
+      "std": 57.60208329565867,
+      "n": 3
+    },
+    "current_deaths": 551,
+    "z_score": -6.024087674380217,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.778273+00:00"
+  },
+  "Connecticut": {
+    "jurisdiction": "Connecticut",
+    "baseline": {
+      "mean": 610.3333333333334,
+      "std": 52.822554105440815,
+      "n": 3
+    },
+    "current_deaths": 414,
+    "z_score": -3.7168466511752922,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.780117+00:00"
+  },
+  "Delaware": {
+    "jurisdiction": "Delaware",
+    "baseline": {
+      "mean": 205.66666666666666,
+      "std": 5.557777333511022,
+      "n": 3
+    },
+    "current_deaths": 101,
+    "z_score": -18.832468518587707,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.781956+00:00"
+  },
+  "District of Columbia": {
+    "jurisdiction": "District of Columbia",
+    "baseline": {
+      "mean": 128.0,
+      "std": 2.943920288775949,
+      "n": 3
+    },
+    "current_deaths": 38,
+    "z_score": -30.571479921904086,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.783786+00:00"
+  },
+  "Florida": {
+    "jurisdiction": "Florida",
+    "baseline": {
+      "mean": 5079.666666666667,
+      "std": 852.8060871160702,
+      "n": 3
+    },
+    "current_deaths": 3084,
+    "z_score": -2.3401177557437496,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.785635+00:00"
+  },
+  "Georgia": {
+    "jurisdiction": "Georgia",
+    "baseline": {
+      "mean": 2259.6666666666665,
+      "std": 401.96047345755557,
+      "n": 3
+    },
+    "current_deaths": 857,
+    "z_score": -3.4895636742620644,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.787463+00:00"
+  },
+  "Hawaii": {
+    "jurisdiction": "Hawaii",
+    "baseline": {
+      "mean": 266.6666666666667,
+      "std": 6.128258770283412,
+      "n": 3
+    },
+    "current_deaths": 163,
+    "z_score": -16.916169919155102,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.789321+00:00"
+  },
+  "Idaho": {
+    "jurisdiction": "Idaho",
+    "baseline": {
+      "mean": 360.0,
+      "std": 75.05997601918082,
+      "n": 3
+    },
+    "current_deaths": 208,
+    "z_score": -2.0250472763428267,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.791145+00:00"
+  },
+  "Illinois": {
+    "jurisdiction": "Illinois",
+    "baseline": {
+      "mean": 2145.3333333333335,
+      "std": 101.72621207054857,
+      "n": 3
+    },
+    "current_deaths": 1718,
+    "z_score": -4.200818300763738,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.792969+00:00"
+  },
+  "Indiana": {
+    "jurisdiction": "Indiana",
+    "baseline": {
+      "mean": 1472.0,
+      "std": 165.07170159257058,
+      "n": 3
+    },
+    "current_deaths": 728,
+    "z_score": -4.507132311729229,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.794816+00:00"
+  },
+  "Iowa": {
+    "jurisdiction": "Iowa",
+    "baseline": {
+      "mean": 635.6666666666666,
+      "std": 30.225081564084416,
+      "n": 3
+    },
+    "current_deaths": 398,
+    "z_score": -7.863226643830765,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.796681+00:00"
+  },
+  "Kansas": {
+    "jurisdiction": "Kansas",
+    "baseline": {
+      "mean": 596.6666666666666,
+      "std": 38.76711091748892,
+      "n": 3
+    },
+    "current_deaths": 404,
+    "z_score": -4.9698484645073036,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.798507+00:00"
+  },
+  "Kentucky": {
+    "jurisdiction": "Kentucky",
+    "baseline": {
+      "mean": 1140.3333333333333,
+      "std": 199.132005352117,
+      "n": 3
+    },
+    "current_deaths": 449,
+    "z_score": -3.4717338988821846,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.800338+00:00"
+  },
+  "Louisiana": {
+    "jurisdiction": "Louisiana",
+    "baseline": {
+      "mean": 1099.3333333333333,
+      "std": 152.9190054317063,
+      "n": 3
+    },
+    "current_deaths": 406,
+    "z_score": -4.533990600945781,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.802155+00:00"
+  },
+  "Maine": {
+    "jurisdiction": "Maine",
+    "baseline": {
+      "mean": 323.6666666666667,
+      "std": 5.2493385826745405,
+      "n": 3
+    },
+    "current_deaths": 239,
+    "z_score": -16.129016129024198,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.803991+00:00"
+  },
+  "Maryland": {
+    "jurisdiction": "Maryland",
+    "baseline": {
+      "mean": 1031.0,
+      "std": 71.76350047203663,
+      "n": 3
+    },
+    "current_deaths": 710,
+    "z_score": -4.473025951752185,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.805830+00:00"
+  },
+  "Massachusetts": {
+    "jurisdiction": "Massachusetts",
+    "baseline": {
+      "mean": 1094.3333333333333,
+      "std": 60.57685660015346,
+      "n": 3
+    },
+    "current_deaths": 870,
+    "z_score": -3.70328448724368,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.807673+00:00"
+  },
+  "Michigan": {
+    "jurisdiction": "Michigan",
+    "baseline": {
+      "mean": 2009.0,
+      "std": 115.86486381412902,
+      "n": 3
+    },
+    "current_deaths": 1453,
+    "z_score": -4.798693768733357,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.809503+00:00"
+  },
+  "Minnesota": {
+    "jurisdiction": "Minnesota",
+    "baseline": {
+      "mean": 942.0,
+      "std": 39.21734310225516,
+      "n": 3
+    },
+    "current_deaths": 650,
+    "z_score": -7.445685426435959,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.811334+00:00"
+  },
+  "Mississippi": {
+    "jurisdiction": "Mississippi",
+    "baseline": {
+      "mean": 774.0,
+      "std": 135.87003594121356,
+      "n": 3
+    },
+    "current_deaths": 425,
+    "z_score": -2.5686311009073455,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.813170+00:00"
+  },
+  "Missouri": {
+    "jurisdiction": "Missouri",
+    "baseline": {
+      "mean": 1411.0,
+      "std": 80.01666493091716,
+      "n": 3
+    },
+    "current_deaths": 830,
+    "z_score": -7.260987451821563,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.815024+00:00"
+  },
+  "Montana": {
+    "jurisdiction": "Montana",
+    "baseline": {
+      "mean": 267.0,
+      "std": 37.5588427226754,
+      "n": 3
+    },
+    "current_deaths": 106,
+    "z_score": -4.286607049870561,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.816850+00:00"
+  },
+  "Nebraska": {
+    "jurisdiction": "Nebraska",
+    "baseline": {
+      "mean": 346.3333333333333,
+      "std": 14.055445761538676,
+      "n": 3
+    },
+    "current_deaths": 220,
+    "z_score": -8.988212503301167,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.818673+00:00"
+  },
+  "Nevada": {
+    "jurisdiction": "Nevada",
+    "baseline": {
+      "mean": 596.6666666666666,
+      "std": 75.48215388789296,
+      "n": 3
+    },
+    "current_deaths": 37,
+    "z_score": -7.4145561280337935,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.820499+00:00"
+  },
+  "New Hampshire": {
+    "jurisdiction": "New Hampshire",
+    "baseline": {
+      "mean": 257.0,
+      "std": 23.280893453645632,
+      "n": 3
+    },
+    "current_deaths": 207,
+    "z_score": -2.147683897937789,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.822317+00:00"
+  },
+  "New Jersey": {
+    "jurisdiction": "New Jersey",
+    "baseline": {
+      "mean": 1452.6666666666667,
+      "std": 87.2251238017019,
+      "n": 3
+    },
+    "current_deaths": 1121,
+    "z_score": -3.8024212773911295,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.824148+00:00"
+  },
+  "New Mexico": {
+    "jurisdiction": "New Mexico",
+    "baseline": {
+      "mean": 425.0,
+      "std": 45.614325235244536,
+      "n": 3
+    },
+    "current_deaths": 178,
+    "z_score": -5.414965555802019,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.825980+00:00"
+  },
+  "New York": {
+    "jurisdiction": "New York",
+    "baseline": {
+      "mean": 2007.3333333333333,
+      "std": 173.9144106226457,
+      "n": 3
+    },
+    "current_deaths": 1566,
+    "z_score": -2.537646718022264,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.827808+00:00"
+  },
+  "New York City": {
+    "jurisdiction": "New York City",
+    "baseline": {
+      "mean": 1015.6666666666666,
+      "std": 40.036094825655624,
+      "n": 3
+    },
+    "current_deaths": 918,
+    "z_score": -2.439465364740834,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.829633+00:00"
+  },
+  "North Carolina": {
+    "jurisdiction": "North Carolina",
+    "baseline": {
+      "mean": 2282.6666666666665,
+      "std": 306.2486281148411,
+      "n": 3
+    },
+    "current_deaths": 1311,
+    "z_score": -3.1728033286153963,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.831444+00:00"
+  },
+  "North Dakota": {
+    "jurisdiction": "North Dakota",
+    "baseline": {
+      "mean": 153.0,
+      "std": 14.854853303438128,
+      "n": 3
+    },
+    "current_deaths": 89,
+    "z_score": -4.308356245105922,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.833262+00:00"
+  },
+  "Ohio": {
+    "jurisdiction": "Ohio",
+    "baseline": {
+      "mean": 2709.0,
+      "std": 302.26257900485575,
+      "n": 3
+    },
+    "current_deaths": 1169,
+    "z_score": -5.094907894553697,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.835106+00:00"
+  },
+  "Oklahoma": {
+    "jurisdiction": "Oklahoma",
+    "baseline": {
+      "mean": 928.3333333333334,
+      "std": 130.4922305051999,
+      "n": 3
+    },
+    "current_deaths": 449,
+    "z_score": -3.673271055890433,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.836934+00:00"
+  },
+  "Oregon": {
+    "jurisdiction": "Oregon",
+    "baseline": {
+      "mean": 831.3333333333334,
+      "std": 116.84842983778411,
+      "n": 3
+    },
+    "current_deaths": 401,
+    "z_score": -3.6828336840362126,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.838770+00:00"
+  },
+  "Pennsylvania": {
+    "jurisdiction": "Pennsylvania",
+    "baseline": {
+      "mean": 2723.0,
+      "std": 157.08171970877663,
+      "n": 3
+    },
+    "current_deaths": 1955,
+    "z_score": -4.889174892048814,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.840598+00:00"
+  },
+  "Rhode Island": {
+    "jurisdiction": "Rhode Island",
+    "baseline": {
+      "mean": 197.0,
+      "std": 4.96655480858378,
+      "n": 3
+    },
+    "current_deaths": 162,
+    "z_score": -7.047138579747255,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.842418+00:00"
+  },
+  "South Carolina": {
+    "jurisdiction": "South Carolina",
+    "baseline": {
+      "mean": 1263.0,
+      "std": 220.3466965186151,
+      "n": 3
+    },
+    "current_deaths": 783,
+    "z_score": -2.1783852791251133,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.844237+00:00"
+  },
+  "South Dakota": {
+    "jurisdiction": "South Dakota",
+    "baseline": {
+      "mean": 172.0,
+      "std": 10.801234497346433,
+      "n": 3
+    },
+    "current_deaths": 32,
+    "z_score": -12.96148139681572,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.846092+00:00"
+  },
+  "Tennessee": {
+    "jurisdiction": "Tennessee",
+    "baseline": {
+      "mean": 1912.6666666666667,
+      "std": 345.56845277825283,
+      "n": 3
+    },
+    "current_deaths": 1102,
+    "z_score": -2.345893151267665,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.847943+00:00"
+  },
+  "Texas": {
+    "jurisdiction": "Texas",
+    "baseline": {
+      "mean": 5086.333333333333,
+      "std": 850.8585206849739,
+      "n": 3
+    },
+    "current_deaths": 2489,
+    "z_score": -3.0526030711220704,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.849791+00:00"
+  },
+  "Utah": {
+    "jurisdiction": "Utah",
+    "baseline": {
+      "mean": 426.0,
+      "std": 40.10818702792071,
+      "n": 3
+    },
+    "current_deaths": 338,
+    "z_score": -2.1940657636492054,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.851637+00:00"
+  },
+  "Vermont": {
+    "jurisdiction": "Vermont",
+    "baseline": {
+      "mean": 131.33333333333334,
+      "std": 17.55625877635159,
+      "n": 3
+    },
+    "current_deaths": 84,
+    "z_score": -2.6960945345082115,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.853481+00:00"
+  },
+  "Virginia": {
+    "jurisdiction": "Virginia",
+    "baseline": {
+      "mean": 1569.0,
+      "std": 141.4213562373095,
+      "n": 3
+    },
+    "current_deaths": 1085,
+    "z_score": -3.42239682094289,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.855348+00:00"
+  },
+  "Washington": {
+    "jurisdiction": "Washington",
+    "baseline": {
+      "mean": 1291.6666666666667,
+      "std": 146.44756361540772,
+      "n": 3
+    },
+    "current_deaths": 841,
+    "z_score": -3.077324439825998,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.857180+00:00"
+  },
+  "West Virginia": {
+    "jurisdiction": "West Virginia",
+    "baseline": {
+      "mean": 523.3333333333334,
+      "std": 91.27735510823896,
+      "n": 3
+    },
+    "current_deaths": 349,
+    "z_score": -1.9099297205380739,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.859001+00:00"
+  },
+  "Wisconsin": {
+    "jurisdiction": "Wisconsin",
+    "baseline": {
+      "mean": 1129.6666666666667,
+      "std": 94.31271859557908,
+      "n": 3
+    },
+    "current_deaths": 725,
+    "z_score": -4.290690298112513,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.860840+00:00"
+  },
+  "Wyoming": {
+    "jurisdiction": "Wyoming",
+    "baseline": {
+      "mean": 120.0,
+      "std": 6.164414002968976,
+      "n": 3
+    },
+    "current_deaths": 51,
+    "z_score": -11.193278058022615,
+    "threshold_std": 2.0,
+    "rule_type": "z_score_threshold",
+    "decision": "No Emergency",
+    "created_at": "2025-10-20T18:17:07.862683+00:00"
+  }
+}
