@@ -1,272 +1,272 @@
 {
   "Alabama": {
     "baseline_mean": 1195.1340206185566,
-    "baseline_std": 187.91315327164946,
+    "baseline_std": 188.39934594267174,
     "threshold_std": 2.0
   },
   "Alaska": {
     "baseline_mean": 103.49484536082474,
-    "baseline_std": 21.34190191977759,
+    "baseline_std": 21.397120387023854,
     "threshold_std": 2.0
   },
   "Arizona": {
     "baseline_mean": 1466.6030927835052,
-    "baseline_std": 256.2988996656367,
+    "baseline_std": 256.9620285868379,
     "threshold_std": 2.0
   },
   "Arkansas": {
     "baseline_mean": 722.8556701030927,
-    "baseline_std": 95.14947434352925,
+    "baseline_std": 95.39565709482699,
     "threshold_std": 2.0
   },
   "California": {
     "baseline_mean": 6081.80412371134,
-    "baseline_std": 1121.0487922575762,
+    "baseline_std": 1123.9493114451088,
     "threshold_std": 2.0
   },
   "Colorado": {
     "baseline_mean": 908.319587628866,
-    "baseline_std": 115.08764444971749,
+    "baseline_std": 115.38541375581707,
     "threshold_std": 2.0
   },
   "Connecticut": {
     "baseline_mean": 673.5876288659794,
-    "baseline_std": 130.85423168567314,
+    "baseline_std": 131.19279429989243,
     "threshold_std": 2.0
   },
   "Delaware": {
     "baseline_mean": 211.85051546391753,
-    "baseline_std": 32.25116196647657,
+    "baseline_std": 32.334606250748614,
     "threshold_std": 2.0
   },
   "District of Columbia": {
     "baseline_mean": 133.05154639175257,
-    "baseline_std": 23.88454667297709,
+    "baseline_std": 23.94634379223625,
     "threshold_std": 2.0
   },
   "Florida": {
     "baseline_mean": 4720.113402061856,
-    "baseline_std": 597.3914235349954,
+    "baseline_std": 598.9370701637573,
     "threshold_std": 2.0
   },
   "Georgia": {
     "baseline_mean": 1982.3453608247423,
-    "baseline_std": 317.3949364346481,
+    "baseline_std": 318.21614074753114,
     "threshold_std": 2.0
   },
   "Hawaii": {
     "baseline_mean": 243.68041237113403,
-    "baseline_std": 24.919683931635863,
+    "baseline_std": 24.98415928889965,
     "threshold_std": 2.0
   },
   "Idaho": {
     "baseline_mean": 327.10309278350513,
-    "baseline_std": 48.11958568521933,
+    "baseline_std": 48.244086761836165,
     "threshold_std": 2.0
   },
   "Illinois": {
     "baseline_mean": 2298.077319587629,
-    "baseline_std": 333.6367850387,
+    "baseline_std": 334.5000123160089,
     "threshold_std": 2.0
   },
   "Indiana": {
     "baseline_mean": 1457.680412371134,
-    "baseline_std": 213.89907757987334,
+    "baseline_std": 214.4525043200837,
     "threshold_std": 2.0
   },
   "Iowa": {
     "baseline_mean": 648.4845360824743,
-    "baseline_std": 93.05619778625315,
+    "baseline_std": 93.29696454775532,
     "threshold_std": 2.0
   },
   "Kansas": {
     "baseline_mean": 581.8969072164948,
-    "baseline_std": 91.66405320641513,
+    "baseline_std": 91.90121803542914,
     "threshold_std": 2.0
   },
   "Kentucky": {
     "baseline_mean": 1079.2164948453608,
-    "baseline_std": 154.21017434738206,
+    "baseline_std": 154.6091664097226,
     "threshold_std": 2.0
   },
   "Louisiana": {
     "baseline_mean": 1029.8092783505156,
-    "baseline_std": 159.29852581327722,
+    "baseline_std": 159.71068310193232,
     "threshold_std": 2.0
   },
   "Maine": {
     "baseline_mean": 317.53092783505156,
-    "baseline_std": 34.86101376297628,
+    "baseline_std": 34.9512105858217,
     "threshold_std": 2.0
   },
   "Maryland": {
     "baseline_mean": 1078.7474226804125,
-    "baseline_std": 149.4491711633044,
+    "baseline_std": 149.83584495619715,
     "threshold_std": 2.0
   },
   "Massachusetts": {
     "baseline_mean": 1239.8762886597938,
-    "baseline_std": 227.76399694366035,
+    "baseline_std": 228.35329675641304,
     "threshold_std": 2.0
   },
   "Michigan": {
     "baseline_mean": 2125.0515463917527,
-    "baseline_std": 312.236424799919,
+    "baseline_std": 313.0442823592272,
     "threshold_std": 2.0
   },
   "Minnesota": {
     "baseline_mean": 971.8814432989691,
-    "baseline_std": 120.83571264102048,
+    "baseline_std": 121.14835407596512,
     "threshold_std": 2.0
   },
   "Mississippi": {
     "baseline_mean": 721.5154639175257,
-    "baseline_std": 114.80167689802799,
+    "baseline_std": 115.09870631271838,
     "threshold_std": 2.0
   },
   "Missouri": {
     "baseline_mean": 1412.6030927835052,
-    "baseline_std": 191.24074585985232,
+    "baseline_std": 191.73554809918,
     "threshold_std": 2.0
   },
   "Montana": {
     "baseline_mean": 228.64948453608247,
-    "baseline_std": 37.64909638354131,
+    "baseline_std": 37.74650688628473,
     "threshold_std": 2.0
   },
   "Nebraska": {
     "baseline_mean": 363.33505154639175,
-    "baseline_std": 51.27031765476028,
+    "baseline_std": 51.40297070352635,
     "threshold_std": 2.0
   },
   "Nevada": {
     "baseline_mean": 607.4432989690722,
-    "baseline_std": 99.23563222209482,
+    "baseline_std": 99.4923871977346,
     "threshold_std": 2.0
   },
   "New Hampshire": {
     "baseline_mean": 265.63917525773195,
-    "baseline_std": 28.488263297567876,
+    "baseline_std": 28.5619717346,
     "threshold_std": 2.0
   },
   "New Jersey": {
     "baseline_mean": 1612.8556701030927,
-    "baseline_std": 473.6325077153775,
+    "baseline_std": 474.8579496283032,
     "threshold_std": 2.0
   },
   "New Mexico": {
     "baseline_mean": 438.74226804123714,
-    "baseline_std": 75.26383536894475,
+    "baseline_std": 75.45856748062674,
     "threshold_std": 2.0
   },
   "New York": {
     "baseline_mean": 2174.7319587628867,
-    "baseline_std": 413.0338973000202,
+    "baseline_std": 414.10255082562406,
     "threshold_std": 2.0
   },
   "New York City": {
     "baseline_mean": 1264.2319587628865,
-    "baseline_std": 762.2855370591557,
+    "baseline_std": 764.257818588638,
     "threshold_std": 2.0
   },
   "North Carolina": {
     "baseline_mean": 2153.6907216494847,
-    "baseline_std": 261.6196129357948,
+    "baseline_std": 262.29650827915145,
     "threshold_std": 2.0
   },
   "North Dakota": {
     "baseline_mean": 154.20103092783506,
-    "baseline_std": 30.17928898223532,
+    "baseline_std": 30.257372654742362,
     "threshold_std": 2.0
   },
   "Ohio": {
     "baseline_mean": 2671.742268041237,
-    "baseline_std": 442.29309399641073,
+    "baseline_std": 443.4374506154174,
     "threshold_std": 2.0
   },
   "Oklahoma": {
     "baseline_mean": 886.4175257731958,
-    "baseline_std": 150.59225313128346,
+    "baseline_std": 150.98188445038178,
     "threshold_std": 2.0
   },
   "Oregon": {
     "baseline_mean": 820.3350515463917,
-    "baseline_std": 92.69068452759004,
+    "baseline_std": 92.93050558697173,
     "threshold_std": 2.0
   },
   "Pennsylvania": {
     "baseline_mean": 2873.0876288659792,
-    "baseline_std": 455.65461864930063,
+    "baseline_std": 456.83354589440154,
     "threshold_std": 2.0
   },
   "Puerto Rico": {
     "baseline_mean": 645.0360824742268,
-    "baseline_std": 56.40340467453889,
+    "baseline_std": 56.549338695101184,
     "threshold_std": 2.0
   },
   "Rhode Island": {
     "baseline_mean": 218.94329896907217,
-    "baseline_std": 36.04710379780304,
+    "baseline_std": 36.140369422762966,
     "threshold_std": 2.0
   },
   "South Carolina": {
     "baseline_mean": 1157.840206185567,
-    "baseline_std": 154.82411115124128,
+    "baseline_std": 155.22469166851073,
     "threshold_std": 2.0
   },
   "South Dakota": {
     "baseline_mean": 178.00515463917526,
-    "baseline_std": 37.15577370774894,
+    "baseline_std": 37.25190782368682,
     "threshold_std": 2.0
   },
   "Tennessee": {
     "baseline_mean": 1701.8556701030927,
-    "baseline_std": 238.47818589603182,
+    "baseline_std": 239.09520681320922,
     "threshold_std": 2.0
   },
   "Texas": {
     "baseline_mean": 4807.077319587629,
-    "baseline_std": 772.8913376373663,
+    "baseline_std": 774.8910598351662,
     "threshold_std": 2.0
   },
   "United States": {
     "baseline_mean": 63459.4175257732,
-    "baseline_std": 7986.974616953393,
+    "baseline_std": 8007.639527603857,
     "threshold_std": 2.0
   },
   "Utah": {
     "baseline_mean": 432.1185567010309,
-    "baseline_std": 46.216003007609416,
+    "baseline_std": 46.335578894422206,
     "threshold_std": 2.0
   },
   "Vermont": {
     "baseline_mean": 123.80412371134021,
-    "baseline_std": 17.225095080166554,
+    "baseline_std": 17.269662024203374,
     "threshold_std": 2.0
   },
   "Virginia": {
     "baseline_mean": 1551.8298969072166,
-    "baseline_std": 179.6713693437133,
+    "baseline_std": 180.13623782921616,
     "threshold_std": 2.0
   },
   "Washington": {
     "baseline_mean": 1272.7938144329896,
-    "baseline_std": 122.41887178014804,
+    "baseline_std": 122.7356093646017,
     "threshold_std": 2.0
   },
   "West Virginia": {
     "baseline_mean": 508.4742268041237,
-    "baseline_std": 75.04742044283613,
+    "baseline_std": 75.24159261845648,
     "threshold_std": 2.0
   },
   "Wisconsin": {
     "baseline_mean": 1152.9278350515465,
-    "baseline_std": 157.43594655111968,
+    "baseline_std": 157.84328473919194,
     "threshold_std": 2.0
   },
   "Wyoming": {
     "baseline_mean": 106.3298969072165,
-    "baseline_std": 18.560417726305054,
+    "baseline_std": 18.608439585938264,
     "threshold_std": 2.0
   }
 }

@@ -1,145 +1,979 @@
 {
-  "feature_names": [
-    "Jurisdiction of Occurrence_Alabama",
-    "Jurisdiction of Occurrence_Alaska",
-    "Jurisdiction of Occurrence_Arizona",
-    "Jurisdiction of Occurrence_Arkansas",
-    "Jurisdiction of Occurrence_California",
-    "Jurisdiction of Occurrence_Colorado",
-    "Jurisdiction of Occurrence_Connecticut",
-    "Jurisdiction of Occurrence_Delaware",
-    "Jurisdiction of Occurrence_District of Columbia",
-    "Jurisdiction of Occurrence_Florida",
-    "Jurisdiction of Occurrence_Georgia",
-    "Jurisdiction of Occurrence_Hawaii",
-    "Jurisdiction of Occurrence_Idaho",
-    "Jurisdiction of Occurrence_Illinois",
-    "Jurisdiction of Occurrence_Indiana",
-    "Jurisdiction of Occurrence_Iowa",
-    "Jurisdiction of Occurrence_Kansas",
-    "Jurisdiction of Occurrence_Kentucky",
-    "Jurisdiction of Occurrence_Louisiana",
-    "Jurisdiction of Occurrence_Maine",
-    "Jurisdiction of Occurrence_Maryland",
-    "Jurisdiction of Occurrence_Massachusetts",
-    "Jurisdiction of Occurrence_Michigan",
-    "Jurisdiction of Occurrence_Minnesota",
-    "Jurisdiction of Occurrence_Mississippi",
-    "Jurisdiction of Occurrence_Missouri",
-    "Jurisdiction of Occurrence_Montana",
-    "Jurisdiction of Occurrence_Nebraska",
-    "Jurisdiction of Occurrence_Nevada",
-    "Jurisdiction of Occurrence_New Hampshire",
-    "Jurisdiction of Occurrence_New Jersey",
-    "Jurisdiction of Occurrence_New Mexico",
-    "Jurisdiction of Occurrence_New York",
-    "Jurisdiction of Occurrence_New York City",
-    "Jurisdiction of Occurrence_North Carolina",
-    "Jurisdiction of Occurrence_North Dakota",
-    "Jurisdiction of Occurrence_Ohio",
-    "Jurisdiction of Occurrence_Oklahoma",
-    "Jurisdiction of Occurrence_Oregon",
-    "Jurisdiction of Occurrence_Pennsylvania",
-    "Jurisdiction of Occurrence_Puerto Rico",
-    "Jurisdiction of Occurrence_Rhode Island",
-    "Jurisdiction of Occurrence_South Carolina",
-    "Jurisdiction of Occurrence_South Dakota",
-    "Jurisdiction of Occurrence_Tennessee",
-    "Jurisdiction of Occurrence_Texas",
-    "Jurisdiction of Occurrence_United States",
-    "Jurisdiction of Occurrence_Utah",
-    "Jurisdiction of Occurrence_Vermont",
-    "Jurisdiction of Occurrence_Virginia",
-    "Jurisdiction of Occurrence_Washington",
-    "Jurisdiction of Occurrence_West Virginia",
-    "Jurisdiction of Occurrence_Wisconsin",
-    "Jurisdiction of Occurrence_Wyoming",
-    "All Cause"
-  ],
-  "tree": {
-    "node_type": "split",
-    "feature": "All Cause",
-    "threshold": 72188.5,
-    "left": {
-      "node_type": "split",
-      "feature": "Jurisdiction of Occurrence_New York",
-      "threshold": 0.5,
-      "left": {
+  "states": {
+    "Alabama": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
         "node_type": "split",
-        "feature": "Jurisdiction of Occurrence_New Hampshire",
-        "threshold": 0.5,
+        "feature": "All Cause",
+        "threshold": 1549.0,
         "left": {
           "node_type": "leaf",
-          "class": 0,
-          "probs": [
-            0.9431468044925951,
-            0.05685319550740483
-          ]
+          "class": 0
         },
         "right": {
           "node_type": "leaf",
-          "class": 0,
-          "probs": [
-            0.9948453608247423,
-            0.005154639175257732
-          ]
+          "class": 1
         }
-      },
-      "right": {
-        "node_type": "leaf",
-        "class": 0,
-        "probs": [
-          1.0,
-          0.0
-        ]
       }
     },
-    "right": {
-      "node_type": "split",
-      "feature": "All Cause",
-      "threshold": 80629.0,
-      "left": {
+    "Alaska": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
         "node_type": "split",
         "feature": "All Cause",
-        "threshold": 73837.0,
+        "threshold": 145.5,
         "left": {
           "node_type": "leaf",
-          "class": 1,
-          "probs": [
-            0.42857142857142855,
-            0.5714285714285714
-          ]
+          "class": 0
         },
         "right": {
           "node_type": "leaf",
-          "class": 0,
-          "probs": [
-            0.7777777777777778,
-            0.2222222222222222
-          ]
+          "class": 1
         }
-      },
-      "right": {
+      }
+    },
+    "Arizona": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
         "node_type": "split",
         "feature": "All Cause",
-        "threshold": 85129.5,
+        "threshold": 1974.0,
         "left": {
           "node_type": "leaf",
-          "class": 1,
-          "probs": [
-            0.0,
-            1.0
-          ]
+          "class": 0
         },
         "right": {
           "node_type": "leaf",
-          "class": 1,
-          "probs": [
-            0.4,
-            0.6
-          ]
+          "class": 1
+        }
+      }
+    },
+    "Arkansas": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 917.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "California": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 8501.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Colorado": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1139.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Connecticut": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 939.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Delaware": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 276.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "District of Columbia": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 179.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Florida": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 5884.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Georgia": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2652.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Hawaii": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 297.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Idaho": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 419.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Illinois": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2974.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Indiana": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1897.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Iowa": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 835.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Kansas": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 766.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Kentucky": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1394.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Louisiana": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1338.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Maine": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 388.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Maryland": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1398.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Massachusetts": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1669.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Michigan": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2744.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Minnesota": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1222.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Mississippi": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 946.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Missouri": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1810.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Montana": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 305.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Nebraska": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 468.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Nevada": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 807.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "New Hampshire": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 322.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "New Jersey": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2564.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "New Mexico": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 589.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "New York": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 3002.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "New York City": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2438.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "North Carolina": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2690.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "North Dakota": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 217.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Ohio": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 3557.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Oklahoma": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1191.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Oregon": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1009.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Pennsylvania": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 3781.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Puerto Rico": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 755.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Rhode Island": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 292.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "South Carolina": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1470.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "South Dakota": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 263.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Tennessee": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 2181.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Texas": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 6375.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "United States": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 79534.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Utah": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 521.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Vermont": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 158.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Virginia": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1929.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Washington": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1514.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "West Virginia": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 656.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Wisconsin": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 1469.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
+        }
+      }
+    },
+    "Wyoming": {
+      "feature_names": [
+        "All Cause"
+      ],
+      "tree": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 143.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1
         }
       }
     }
-  }
+  },
+  "feature_names": [
+    "All Cause"
+  ]
 }
