@@ -1,7 +1,7 @@
 function JustinPage() {
     return (
         <div className="page-container">
-            <h1>Justin's Page is for my visualations and analytics</h1>
+            <h1>Visualizationn Page </h1>
             <h2>Visualization:</h2>
             <p>Mean Values: The Average Weekly Death Rate.</p>
             <img src='./src/assets/ScatterPlotofMeans.png' alt="ScatterPlot" width="800" height="500"/>
