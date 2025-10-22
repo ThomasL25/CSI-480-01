@@ -1,7 +1,7 @@
-function JustinPage() {
+function VisualizationPage() {
     return (
         <div className="page-container">
-            <h1>Visualizationn Page </h1>
+            <h1>Visualization Page </h1>
             <h2>Visualization:</h2>
             <p>Mean Values: The Average Weekly Death Rate.</p>
             <img src='./src/assets/ScatterPlotofMeans.png' alt="ScatterPlot" width="800" height="500"/>
@@ -46,4 +46,4 @@ function JustinPage() {
     );
 }
 
-export default JustinPage;
+export default VisualizationPage;
