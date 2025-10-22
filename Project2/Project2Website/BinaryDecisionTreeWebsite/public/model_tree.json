@@ -1,0 +1,145 @@
+{
+  "feature_names": [
+    "Jurisdiction of Occurrence_Alabama",
+    "Jurisdiction of Occurrence_Alaska",
+    "Jurisdiction of Occurrence_Arizona",
+    "Jurisdiction of Occurrence_Arkansas",
+    "Jurisdiction of Occurrence_California",
+    "Jurisdiction of Occurrence_Colorado",
+    "Jurisdiction of Occurrence_Connecticut",
+    "Jurisdiction of Occurrence_Delaware",
+    "Jurisdiction of Occurrence_District of Columbia",
+    "Jurisdiction of Occurrence_Florida",
+    "Jurisdiction of Occurrence_Georgia",
+    "Jurisdiction of Occurrence_Hawaii",
+    "Jurisdiction of Occurrence_Idaho",
+    "Jurisdiction of Occurrence_Illinois",
+    "Jurisdiction of Occurrence_Indiana",
+    "Jurisdiction of Occurrence_Iowa",
+    "Jurisdiction of Occurrence_Kansas",
+    "Jurisdiction of Occurrence_Kentucky",
+    "Jurisdiction of Occurrence_Louisiana",
+    "Jurisdiction of Occurrence_Maine",
+    "Jurisdiction of Occurrence_Maryland",
+    "Jurisdiction of Occurrence_Massachusetts",
+    "Jurisdiction of Occurrence_Michigan",
+    "Jurisdiction of Occurrence_Minnesota",
+    "Jurisdiction of Occurrence_Mississippi",
+    "Jurisdiction of Occurrence_Missouri",
+    "Jurisdiction of Occurrence_Montana",
+    "Jurisdiction of Occurrence_Nebraska",
+    "Jurisdiction of Occurrence_Nevada",
+    "Jurisdiction of Occurrence_New Hampshire",
+    "Jurisdiction of Occurrence_New Jersey",
+    "Jurisdiction of Occurrence_New Mexico",
+    "Jurisdiction of Occurrence_New York",
+    "Jurisdiction of Occurrence_New York City",
+    "Jurisdiction of Occurrence_North Carolina",
+    "Jurisdiction of Occurrence_North Dakota",
+    "Jurisdiction of Occurrence_Ohio",
+    "Jurisdiction of Occurrence_Oklahoma",
+    "Jurisdiction of Occurrence_Oregon",
+    "Jurisdiction of Occurrence_Pennsylvania",
+    "Jurisdiction of Occurrence_Puerto Rico",
+    "Jurisdiction of Occurrence_Rhode Island",
+    "Jurisdiction of Occurrence_South Carolina",
+    "Jurisdiction of Occurrence_South Dakota",
+    "Jurisdiction of Occurrence_Tennessee",
+    "Jurisdiction of Occurrence_Texas",
+    "Jurisdiction of Occurrence_United States",
+    "Jurisdiction of Occurrence_Utah",
+    "Jurisdiction of Occurrence_Vermont",
+    "Jurisdiction of Occurrence_Virginia",
+    "Jurisdiction of Occurrence_Washington",
+    "Jurisdiction of Occurrence_West Virginia",
+    "Jurisdiction of Occurrence_Wisconsin",
+    "Jurisdiction of Occurrence_Wyoming",
+    "All Cause"
+  ],
+  "tree": {
+    "node_type": "split",
+    "feature": "All Cause",
+    "threshold": 72188.5,
+    "left": {
+      "node_type": "split",
+      "feature": "Jurisdiction of Occurrence_New York",
+      "threshold": 0.5,
+      "left": {
+        "node_type": "split",
+        "feature": "Jurisdiction of Occurrence_New Hampshire",
+        "threshold": 0.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 0,
+          "probs": [
+            0.9431468044925951,
+            0.05685319550740483
+          ]
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 0,
+          "probs": [
+            0.9948453608247423,
+            0.005154639175257732
+          ]
+        }
+      },
+      "right": {
+        "node_type": "leaf",
+        "class": 0,
+        "probs": [
+          1.0,
+          0.0
+        ]
+      }
+    },
+    "right": {
+      "node_type": "split",
+      "feature": "All Cause",
+      "threshold": 80629.0,
+      "left": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 73837.0,
+        "left": {
+          "node_type": "leaf",
+          "class": 1,
+          "probs": [
+            0.42857142857142855,
+            0.5714285714285714
+          ]
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 0,
+          "probs": [
+            0.7777777777777778,
+            0.2222222222222222
+          ]
+        }
+      },
+      "right": {
+        "node_type": "split",
+        "feature": "All Cause",
+        "threshold": 85129.5,
+        "left": {
+          "node_type": "leaf",
+          "class": 1,
+          "probs": [
+            0.0,
+            1.0
+          ]
+        },
+        "right": {
+          "node_type": "leaf",
+          "class": 1,
+          "probs": [
+            0.4,
+            0.6
+          ]
+        }
+      }
+    }
+  }
+}
