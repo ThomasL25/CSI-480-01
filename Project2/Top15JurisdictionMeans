@@ -1,0 +1,36 @@
+# Had some help from Claude as a Guide to help learn how to make visualizations
+
+import json
+import matplotlib.pyplot as plt
+import pandas as pd
+
+
+with open('Emergencies.JSON', 'r') as f:
+    data = json.load(f)
+
+jurisdictions = []
+mean = []
+
+for jurisdiction, info in data.items():
+    if info['jurisdiction'] != 'United States':
+        jurisdictions.append(info['jurisdiction'])
+        mean.append(info['baseline']['mean'])
+
+data = pd.DataFrame({'Jurisdiction': jurisdictions, 'Mean': mean})
+
+sorted = data.nlargest(15, 'Mean')
+
+plt.figure(figsize=(12, 8))
+
+plt.barh(range(len(sorted)), sorted['Mean'], color='steelblue')
+plt.yticks(range(len(sorted)), sorted['Jurisdiction'])
+plt.xlabel('The Mean Values', fontsize=12)
+plt.ylabel('Jurisdiction', fontsize=12)
+plt.title('Fifteen Largest Mean Values Based on Jurisdiction', fontsize=16, fontweight='bold')
+plt.gca().invert_yaxis()
+
+for i, (index, row) in enumerate(sorted.iterrows()):
+    plt.text(row['Mean'], i, f" {row['Mean']:,.0f}",
+        va='center', fontsize=9)
+
+plt.show()
