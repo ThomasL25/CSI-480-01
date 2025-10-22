@@ -3,6 +3,7 @@ function JustinPage() {
         <div className="page-container">
             <h1>Justin's Page is for my visualations and analytics</h1>
             <h2>Visualization:</h2>
+            <img src="Project2/Project2Website/BinaryDecisionTreeWebsite/src/assets/Top15MeanByJurisdiction.png" alt="educationpicture"/>
             <h2>Analytics</h2>
         </div>
     );
