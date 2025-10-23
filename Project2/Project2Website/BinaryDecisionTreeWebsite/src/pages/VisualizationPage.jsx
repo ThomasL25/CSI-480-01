@@ -67,26 +67,53 @@ function VisualizationPage() {
             {/* Analytics Section */}
             <section className="analytics-section">
                 <h2>Analytics</h2>
-                <p>Only 10 Jurisdictions in the United States have an average weekly death rate over 2,000,
-                    making it so 19.6% of the Jurisdictions have an average over 2,000 weekly deaths</p>
-
-                <ul className="analytics-list">
-                    <li>COVID-19 Peak: 18,578 deaths in a single week (December 2020)</li>
-                    <li>Excess Mortality During Pandemic: ~15-20% above baseline</li>
-                    <li>Top 5 Causes: Heart Disease (20.9%), Cancer (18.3%), COVID-19 (9.3%), Stroke (4.9%), Alzheimer's (3.8%)</li>
-                    <li>Natural Cause Deaths: 22.6M out of 24.7M total</li>
-                    <li>COVID-19 Weeks Active: 193 weeks with at least 1 COVID death</li>
-                    <li>Highest Correlation: All Cause vs Natural Cause (r = 0.98)</li>
-                    <li>Average Deaths by Year: 2020 (varying), 2021 (elevated), 2022-2023 (normalizing)</li>
-                    <li>Winter vs Summer Mortality: ~15% higher deaths in winter months</li>
-                    <li>Heart Disease Average: 12,802 deaths per week</li>
-                    <li>Cancer Average: 11,205 deaths per week</li>
-                    <li>Risk Categories: 43.7% weeks classified as "Medium Risk" (50-60K deaths)</li>
-                    <li>COVID as Underlying Cause: 1.97M deaths (86% of multiple cause total)</li>
-                    <li>Respiratory Deaths: Increased correlation with COVID-19 during peaks</li>
-                    <li>Diabetes Deaths: 1.8M total across the period</li>
-                    <li>Stroke Deaths: Relatively stable at ~3,000 per week average</li>
-                </ul>
+                <div className="analytics-grid">
+                    <div className="analytics-card">
+                        <strong>COVID-19 Peak</strong> 18,578 deaths in a single week (December 2020)
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Excess Mortality During Pandemic</strong> ~15-20% above baseline
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Top 5 Causes of Death</strong> Heart Disease (20.9%), Cancer (18.3%), COVID-19 (9.3%), Stroke (4.9%), Alzheimer's (3.8%)
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Natural Cause Death</strong> 22.6M out of 24.7M total
+                    </div>
+                    <div className="analytics-card">
+                        <strong>COVID-19 Weeks Active</strong> 193 weeks with at least 1 COVID death
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Average Deaths By Year</strong> 2020 (varying), 2021 (elevated), 2022-2023 (normalizing)
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Winter vs Summer Mortality</strong> ~15% higher deaths in winter months
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Heart Disease Average</strong> 12,802 deaths per week 
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Cancer Average</strong> 11,205 deaths per week
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Risk Categories</strong> 43.7% weeks classified as "Medium Risk" (50-60K deaths)
+                    </div>
+                    <div className="analytics-card">
+                        <strong>COVID as Underlying Cause</strong> 1.97M deaths (86% of multiple cause total)
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Respiratory Deaths</strong> Increased correlation with COVID-19 during peeks
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Diabetes Deaths</strong> 1.8M total across the period
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Stroke Deaths</strong> Relatively stable at ~3,000 per week average
+                    </div>
+                    <div className="analytics-card">
+                        <strong>Jurisdictions Over 2,000 Average Weekly Deaths</strong> Only 19 Jurisdiction around 19.6%
+                    </div>
+                </div>
             </section>
         </div>
     );
