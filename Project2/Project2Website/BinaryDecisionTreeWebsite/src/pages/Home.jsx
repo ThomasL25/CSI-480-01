@@ -120,7 +120,7 @@ function Home() {
           <p className="text-red-600 mb-2">{errors.general}</p>
         )}
 
-        <label className="block font-medium mb-1">State</label>
+        <label>State</label>
         <select
           className="w-full border rounded p-2 mb-2"
           value={selectedState}
@@ -137,7 +137,7 @@ function Home() {
           <p className="text-red-500 text-sm mb-2">{errors.state}</p>
         )}
 
-        <label className="block font-medium mb-1">
+        <label>
           Current Deaths (this week)
         </label>
         <input
@@ -163,7 +163,7 @@ function Home() {
 
         {prediction && (
           <div className="mt-6 border-t pt-4">
-            <h3 className="font-semibold text-lg mb-2">Prediction Result</h3>
+            <h3 className>Prediction Result</h3>
             <p>
               <strong>Decision:</strong>{" "}
               <span
