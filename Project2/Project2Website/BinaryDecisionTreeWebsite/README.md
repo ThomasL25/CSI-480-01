@@ -30,10 +30,15 @@ Setup and installation:
 Technologies Used: Help from Claude, React, and Vite
 # Model Card
 Data Source:
+
 Features Used:
+
 Target:
+
 Intended Use:
+
 Limitations:
+
 Fairness Consideration:
 
 
