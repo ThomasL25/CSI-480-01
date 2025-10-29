@@ -28,6 +28,17 @@ Setup and installation:
     Then open your browser and navigate to the given link in your terminal
 
 Technologies Used: Help from Claude, React, and Vite
+# Model Card
+Data Source:
+Features Used:
+Target:
+Intended Use:
+Limitations:
+Fairness Consideration:
+
+
+
+
 
 Features Implemented:
 
