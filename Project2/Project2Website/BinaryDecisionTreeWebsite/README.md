@@ -31,6 +31,12 @@ Technologies Used: Help from Claude, React, and Vite
 
 Features Implemented:
 
+The features we implemented are two forms of predicting if the weekly death total is either a health emergency or not. The two
+different ways are either advanced, which asks for different fields of death statistics, or a simple one which just asks for the nuber of deaths and the state.
+
 Issues or limitations:
+Some issues is the visual of the prediction is somewhat limited to the information presented, and some of the fielda could have a dropdown of numbers.
 
 Future enhancements planned:
+
+Some enhancements planned are an updated layout for the visualizations on the visulization page.
