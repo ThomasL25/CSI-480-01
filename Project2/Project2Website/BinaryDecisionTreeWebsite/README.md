@@ -29,17 +29,17 @@ Setup and installation:
 
 Technologies Used: Help from Claude, React, and Vite
 # Model Card
-Data Source:
+Data Source: Data.gov  https://catalog.data.gov/dataset/weekly-counts-of-deaths-by-state-and-select-causes-2019-2020
 
-Features Used:
+Features Used: Data As Of,Jurisdiction of Occurrence,MMWR Year,MMWR Week,Week Ending Date,All Cause,Natural Cause,Septicemia (A40-A41),Malignant neoplasms (C00-C97),Diabetes mellitus (E10-E14),Alzheimer disease (G30),Influenza and pneumonia (J09-J18),Chronic lower respiratory diseases (J40-J47),"Other diseases of respiratory system (J00-J06,J30-J39,J67,J70-J98)","Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)","Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)","Diseases of heart (I00-I09,I11,I13,I20-I51)",Cerebrovascular diseases (I60-I69),"COVID-19 (U071, Multiple Cause of Death)","COVID-19 (U071, Underlying Cause of Death)",flag_sept,flag_neopl,flag_diab,flag_alz,flag_inflpn,flag_clrd,flag_otherresp,flag_nephr,flag_otherunk,flag_hd,flag_stroke,flag_cov19mcod,flag_cov19ucod
 
-Target:
+Target: Weekly Death Total
 
-Intended Use:
+Intended Use: Predicting the State of Emergency based in Weekly Death Total
 
-Limitations:
+Limitations: Diseases used in data set and Timeline in Data Set
 
-Fairness Consideration:
+Fairness Consideration: We do  not use any identifiers and very heavily influenced by the Pandemic in the timeline so it is very influenced by those totals.
 
 
 
