@@ -58,12 +58,17 @@ function VisualizationPage() {
             {/* Visualization Section */}
             <section className="visualization-section">
                 <h2>Visualization:</h2>
-                <p>Mean Values: The Average Weekly Death Rate.</p>
+                <h3>Mean Values: The Average Weekly Death Rate.</h3>
                 <img src='./src/assets/ScatterPlotofMeans.png' alt="ScatterPlot" width="800" height="500" />
+                <h3>15 States with Highest Mean Values of Death.</h3>
                 <img src='./src/assets/Top15MeanByJurisdiction.png' alt="Top 15 Mean By Jurisdiction" width="500" height="400" />
+                <h3>10 States with Smallest Mean Values of Death.</h3>
                 <img src='./src/assets/10SmallestMeanValuesByJurisdictiom.png' alt="10 Smallest Means" width="500" height="400" />
+                <h3>Top Causes of Death.</h3>
                 <img src='./src/assets/top_8_causes_of_death.png' alt="Top 8 Causes of Death" width="500" height="400" />
+                <h3>Total Deaths over Time.</h3>
                 <img src='./src/assets/total_deaths_over_time.png' alt="Total Deaths over Time" width="500" height="400" />
+                <h3>Covid Deaths over Time.</h3>
                 <img src='./src/assets/covid_deaths_over_time.png' alt="Covid Deaths over Time" width="500" height="400" />
             </section>
 
