@@ -21,7 +21,41 @@ function App() {
         console.log(`${action} clicked`)
         if (action === 'Sepia Tone') applySepia()
             if (action === 'Hue Rotation') applyHueRotation()
+                if (action === 'Grayscale') applyGreyScale()
         // Placeholder for future implementation
+    }
+
+    const applyGreyScale = () => {
+        if(!uploadedImage) return
+
+        const img = new Image()
+        img.src = uploadedImage
+        img.onload = () => {
+            const canvas = document.createElement('canvas')
+            const ctx = canvas.getContext('2d')
+            canvas.width = img.width
+            canvas.height = img.height
+            ctx.drawImage(img, 0, 0)
+
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
+            const data = imageData.data
+
+
+            for (let i = 0;i < data.length; i += 4) {
+                let r = data[i] * 0.2126
+                let g = data[i + 1] * 0.7152
+                let b = data[i + 2] * 0.0722
+
+                let greyScale = r + g + b
+
+                data[i] = data[i + 1] = data[i + 2] = greyScale
+
+            }
+
+            ctx.putImageData(imageData, 0, 0)
+            setEditedImage(canvas.toDataURL())
+        }
+
     }
 
 
