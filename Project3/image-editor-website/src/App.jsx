@@ -4,6 +4,8 @@ import './App.css'
 function App() {
     const [uploadedImage, setUploadedImage] = useState(null)
     const [editedImage, setEditedImage] = useState(null)
+    const [brightness, setBrightness] = useState(0);
+    const [showBrightness, setShowBrightness] = useState(false);
 
     const handleImageUpload = (e) => {
         const file = e.target.files[0]
@@ -19,9 +21,25 @@ function App() {
 
     const handleButtonClick = (action) => {
         console.log(`${action} clicked`)
-        if (action === 'Sepia Tone') applySepia()
-            if (action === 'Hue Rotation') applyHueRotation()
-                if (action === 'Grayscale') applyGreyScale()
+        if (action === 'Sepia Tone') 
+        {
+            applySepia();
+            setShowBrightness(false);
+        }   
+        if (action === 'Hue Rotation') 
+        {
+            applyHueRotation();
+            setShowBrightness(false);
+        }
+        if (action === 'Grayscale') {
+            applyGreyScale();
+            setShowBrightness(false);
+        }
+
+        if (action === 'Brightness') {
+            setShowBrightness(true);
+            setEditedImage(uploadedImage);
+        }
         // Placeholder for future implementation
     }
 
@@ -182,6 +200,32 @@ function App() {
         }
     }
 
+    const applyBrightness = (value) => {
+        if (!uploadedImage) return;
+
+        const img = new Image();
+        img.src = uploadedImage;
+        img.onload = () => {
+            const canvas = document.createElement("canvas");
+            const ctx = canvas.getContext("2d");
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0);
+
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const data = imageData.data;
+
+            for (let i = 0; i < data.length; i += 4) {
+                data[i]     = Math.min(Math.max(data[i]     + value, 0), 255); // R
+                data[i + 1] = Math.min(Math.max(data[i + 1] + value, 0), 255); // G
+                data[i + 2] = Math.min(Math.max(data[i + 2] + value, 0), 255); // B
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            setEditedImage(canvas.toDataURL());
+        };
+    };
+
 
 
     
@@ -226,6 +270,23 @@ function App() {
                 <button onClick={() => handleButtonClick('Brightness')}>Brightness</button>
                 <button onClick={() => handleButtonClick('Saturation Adjustment')}>Saturation Adjustment</button>
                 <button onClick={() => handleButtonClick('Sepia Tone')}>Sepia Tone</button>
+
+                {uploadedImage && showBrightness && (
+                    <div style={{ marginTop: '20px' }}>
+                        <label>Brightness: {brightness}</label>
+                        <input
+                            type="range"
+                            min="-100"
+                            max="100"
+                            value={brightness}
+                            onChange={(e) => {
+                                const newValue = Number(e.target.value);
+                                setBrightness(newValue);
+                                applyBrightness(newValue);
+                            }}
+                        />
+                    </div>
+                )}
             </div>
         </div>
     )
