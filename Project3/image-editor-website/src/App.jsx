@@ -8,6 +8,8 @@ function App() {
     const [showBrightness, setShowBrightness] = useState(false);
     const [saturation, setSaturation] = useState(0);
     const [showSaturation, setShowSaturation] = useState(false);
+    const [contrast, setContrast] = useState(0);
+    const [showContrast, setShowContrast] = useState(false);
 
     const handleImageUpload = (e) => {
         const file = e.target.files[0]
@@ -28,28 +30,39 @@ function App() {
             applySepia();
             setShowBrightness(false);
             setShowSaturation(false);
+            setShowContrast(false);
         }   
         if (action === 'Hue Rotation') 
         {
             applyHueRotation();
             setShowBrightness(false);
             setShowSaturation(false);
+            setShowContrast(false);
         }
         if (action === 'Grayscale') {
             applyGreyScale();
             setShowBrightness(false);
             setShowSaturation(false);
+            setShowContrast(false);
         }
 
         if (action === 'Brightness') {
             setShowBrightness(true);
             setShowSaturation(false);
+            setShowContrast(false);
             setEditedImage(uploadedImage);
         }
 
         if (action === 'Saturation Adjustment') {
             setShowSaturation(true);
             setShowBrightness(false);
+            setShowContrast(false);
+            setEditedImage(uploadedImage);
+        }
+        if (action === 'Contrast Adjustment') {
+            setShowContrast(true);
+            setShowBrightness(false);
+            setShowSaturation(false);
             setEditedImage(uploadedImage);
         }
         // Placeholder for future implementation
@@ -321,6 +334,37 @@ function App() {
         };
     };
 
+    const applyContrast = (value) => {
+        if (!uploadedImage) return;
+
+        const img = new Image();
+        img.src = uploadedImage;
+        img.onload = () => {
+            const canvas = document.createElement("canvas");
+            const ctx = canvas.getContext("2d");
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0);
+
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const data = imageData.data;
+
+            // Convert value from -100 to 100 range to a contrast factor
+
+            const contrastFactor = (value + 100) / 100; // Range: 0 to 2
+            const intercept = 128 * (1 - contrastFactor);
+
+            for (let i = 0; i < data.length; i += 4) {
+                // Apply contrast formula: newValue = factor * (oldValue - 128) + 128
+                data[i] = Math.min(Math.max(contrastFactor * data[i] + intercept, 0), 255);     // R
+                data[i + 1] = Math.min(Math.max(contrastFactor * data[i + 1] + intercept, 0), 255); // G
+                data[i + 2] = Math.min(Math.max(contrastFactor * data[i + 2] + intercept, 0), 255); // B
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            setEditedImage(canvas.toDataURL());
+        };
+    };
     
 
     return (
@@ -392,6 +436,22 @@ function App() {
                                 const newValue = Number(e.target.value);
                                 setSaturation(newValue);
                                 applySaturation(newValue);
+                            }}
+                        />
+                    </div>
+                )}
+                {uploadedImage && showContrast && (
+                    <div style={{ marginTop: '20px' }}>
+                        <label>Contrast: {contrast}</label>
+                        <input
+                            type="range"
+                            min="-100"
+                            max="100"
+                            value={contrast}
+                            onChange={(e) => {
+                                const newValue = Number(e.target.value);
+                                setContrast(newValue);
+                                applyContrast(newValue);
                             }}
                         />
                     </div>
