@@ -27,19 +27,23 @@ function App() {
         {
             applySepia();
             setShowBrightness(false);
+            setShowSaturation(false);
         }   
         if (action === 'Hue Rotation') 
         {
             applyHueRotation();
             setShowBrightness(false);
+            setShowSaturation(false);
         }
         if (action === 'Grayscale') {
             applyGreyScale();
             setShowBrightness(false);
+            setShowSaturation(false);
         }
 
         if (action === 'Brightness') {
             setShowBrightness(true);
+            setShowSaturation(false);
             setEditedImage(uploadedImage);
         }
 
