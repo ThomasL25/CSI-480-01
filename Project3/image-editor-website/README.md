@@ -9,7 +9,7 @@ https://keen-mandazi-6bcb0b.netlify.app/
 
 Description:
 
-The website's main purpose is to take any image the user uploads and perform a number of graphical transformations to it. Each implemented transformation besides Grayscale and Sepia come with a slider to change the scale as to which the transformation is performed. There is also the ability to download the change photo simply by clicking on it on the right panel.
+The website's main purpose is to take any image the user uploads and perform a number of graphical transformations to it. Each implemented transformation besides Grayscale and Sepia come with a slider to change the scale as to which the transformation is performed. There is also the ability to download the changed photo simply by clicking on it on the right panel.
 
 
 
@@ -75,5 +75,5 @@ Setup Instructions:
 
 File Structure:
 
-Primary coding files are within the src folder, including two .jsx and two .css files. Included in the src folder is an assets folder which was not used. App.css was the primary file for styling of the web page. App.jsx has the implemented image transformations other important functions. index.css also implements styling of the web page. Finally main.jsx takes and performs the executions from App.jsx. The README is also located in the root of the folder. 
+Primary coding files are within the src folder, including two .jsx and two .css files. Included in the src folder is an assets folder which was not used. App.css was the primary file for styling of the web page. App.jsx has the implemented image transformations other important functions. index.css also implements styling of the web page. Finally main.jsx takes and performs the executions from App.jsx. The README is also located in the root of the folder.
 
