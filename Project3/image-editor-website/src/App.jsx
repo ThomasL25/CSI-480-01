@@ -401,9 +401,11 @@ function App() {
 
                 <div className="image-box edited">
                     {editedImage ? (
-                        <img src={editedImage} alt="Edited" className="preview-image" />
-                    ) : (
-                    <span>Edited Image</span>
+                        <a href={editedImage} download="edited-image.png">
+                            <img src={editedImage} alt="Edited" className="preview-image clickable" />
+                        </a>
+                        ) : (
+                        <span>Edited Image</span>
                     )}
                 </div>
             </div>
