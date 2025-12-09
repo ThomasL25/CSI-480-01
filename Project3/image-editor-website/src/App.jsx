@@ -10,6 +10,8 @@ function App() {
     const [showSaturation, setShowSaturation] = useState(false);
     const [contrast, setContrast] = useState(0);
     const [showContrast, setShowContrast] = useState(false);
+    const [hue, setHue] = useState(0);
+    const [showHue, setShowHue] = useState(false);
 
     const handleImageUpload = (e) => {
         const file = e.target.files[0]
@@ -31,25 +33,29 @@ function App() {
             setShowBrightness(false);
             setShowSaturation(false);
             setShowContrast(false);
+            setShowHue(false)
         }   
         if (action === 'Hue Rotation') 
         {
-            applyHueRotation();
+            setShowHue(true);
             setShowBrightness(false);
             setShowSaturation(false);
             setShowContrast(false);
+            setEditedImage(uploadedImage);
         }
         if (action === 'Grayscale') {
             applyGreyScale();
             setShowBrightness(false);
             setShowSaturation(false);
             setShowContrast(false);
+            setShowHue(false)
         }
 
         if (action === 'Brightness') {
             setShowBrightness(true);
             setShowSaturation(false);
             setShowContrast(false);
+            setShowHue(false)
             setEditedImage(uploadedImage);
         }
 
@@ -57,12 +63,14 @@ function App() {
             setShowSaturation(true);
             setShowBrightness(false);
             setShowContrast(false);
+            setShowHue(false)
             setEditedImage(uploadedImage);
         }
         if (action === 'Contrast Adjustment') {
             setShowContrast(true);
             setShowBrightness(false);
             setShowSaturation(false);
+            setShowHue(false)
             setEditedImage(uploadedImage);
         }
         // Placeholder for future implementation
@@ -137,7 +145,7 @@ function App() {
         }
     }
 
-    const applyHueRotation = () => {
+    const applyHueRotation = (value) => {
         if (!uploadedImage) return
 
 
@@ -188,7 +196,7 @@ function App() {
 
 
                 // Add hue rotation
-                h += 0.1
+                h += (value / 360);
                 if (h > 1) h -= 1
 
 
@@ -452,6 +460,22 @@ function App() {
                                 const newValue = Number(e.target.value);
                                 setContrast(newValue);
                                 applyContrast(newValue);
+                            }}
+                        />
+                    </div>
+                )}
+                {uploadedImage && showHue && (
+                    <div style={{ marginTop: '20px' }}>
+                        <label>Hue Rotation: {hue}°</label>
+                        <input
+                            type="range"
+                            min="-180"
+                            max="180"
+                            value={hue}
+                            onChange={(e) => {
+                                const newValue = Number(e.target.value);
+                                setHue(newValue);
+                                applyHueRotation(newValue);
                             }}
                         />
                     </div>
